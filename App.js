@@ -23,9 +23,7 @@ export default function App() {
       <StatusBar style="auto" />
       <NavigationContainer>
         <Stack.Navigator
-          screenOptions={{
-            headerShown: false,
-          }}
+          screenOptions={{ headerShown: false }}
           initialRouteName={"MainLayout"}
         >
           <Stack.Screen name="MainLayout" component={Tabs} />

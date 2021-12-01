@@ -9,7 +9,8 @@ const Tab = createBottomTabNavigator();
 const Tabs = () => {
   return (
     <Tab.Navigator
-      tabBarOptions={{
+      screenOptions={{
+        headerShown: false,
         style: {
           backgroundColor: COLORS.primary,
           borderTopColor: "transparent",
